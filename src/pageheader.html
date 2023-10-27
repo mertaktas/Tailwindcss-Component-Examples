@@ -1,0 +1,77 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="/dist/output.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style>
+    body {
+        font-family: 'Poppins', sans-serif;
+    }
+</style>
+</head>
+<body>
+    <div class="min-w-full min-h-screen bg-[#C6CCE0;] flex items-center justify-center">
+        <div class="w-[1134px;] relative h-[373px;]">
+            <div class="w-[1134px;] relative h-[373px;] z-10 text-[#0D2167;] inline-flex items-start flex-col p-8 gap-4 rounded-[32px;] bg-white shadow-[0_51px_93px_0_rgba(15,9,83,0.3)]">
+                <div class="flex-1 flex flex-col items-start gap-10 w-full">
+                    <div class="flex flex-col flex-start gap-8 w-full">
+                        <ul class="flex items-start">
+                            <li class="flex justify-center p-4 items-start relative">
+                                <a class="text-base font-medium leading-normal" href="#">My parameters</a>
+                                <span class=" w-full h-1 self-stretch rounded-xl bg-[#0D2167] absolute bottom-0"></span>
+                            </li>
+                            <li class="flex justify-center p-4 items-start">
+                                <a class="text-base text-[#5A6793;] font-medium leading-normal" href="#">Public</a>
+                            </li>
+                            <li class="flex justify-center p-4 items-start">
+                                <a class="text-base text-[#5A6793;] font-medium leading-normal" href="#">Configurations</a>
+                            </li>
+                        </ul>
+                        <div class="flex items-center gap-4 w-full">
+                            <h2 class="text-2xl font-bold leading-normal flex-1">My Parameters</h2>
+                            <a class="p-4 flex items-center justify-center rounded-lg border divide-solid border-[#C6CCE0;]" href="#">
+                                <img class="w-8 h-8" src="./images/edit.svg" alt="">
+                                <span class="text-base font-medium leading-normal">Edit</span>
+                            </a>
+                            <a class="p-4 flex items-center justify-center rounded-lg border divide-solid border-[#C6CCE0;]" href="#">
+                                <img class="w-8 h-8" src="./images/delete.svg" alt="">
+                                <span class="text-base font-medium leading-normal">Delete</span>
+                            </a>
+                            <a class="p-4 flex items-center justify-center rounded-lg border divide-solid border-[#C6CCE0;] bg-[#0D2167;] h-full" href="#">
+                                <span class="text-base font-medium leading-normal text-white">Create parameter</span>
+                            </a>
+                        </div>
+                    </div>
+                    <!--search-->
+                    <div class="flex w-full items-start justify-center gap-[21px;] ">
+                        <div class="relative flex items-center flex-1 border solid border-[#C6CCE0;] rounded-lg">
+                            <img class="w-8 h-8 absolute left-4" src="./images/search.svg" alt="">
+                            <input class="p-4 pl-14 w-full text-base font-medium leading-normal" placeholder="Search"  type="text" name="search"  />
+                        </div>
+                        <div class="flex p-4 items-center gap-2">
+                            <img class="w-8 h-8" src="./images/leftarrow.svg" alt="">
+                            <span class="text-base font-medium leading-normal">1</span>
+                            <img class="w-8 h-8" src="./images/rightarrow.svg" alt="">
+                        </div>
+                        <div class="p-4 flex items-center">
+                            <img class="w-8 h-8" src="./images/option.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="flex items-center gap-1.5">
+                    <a class="flex p-2 gap-2 h-[38px;] rounded-lg border divide-solid border-[#0D2167;]" href="#">
+                        <span class="text-sm font-semibold leading-normal">Name: contains: auth0</span>
+                        <img class="w-[22px;] h-[22px;]" src="./images/close.svg" alt="">
+                    </a>
+                    <a class="flex items-center h-[38px;] p-2 py-4 gap-2 rounded-lg border divide-solid border-[#C6CCE0;]" href="#">
+                        <span class="text-sm font-medium leading-normal">Clear filters</span>
+                    </a>
+                </div>
+            </div>
+            <div class="z-[-100px;] absolute bottom-[-73px;] left-[-95px;] w-[990px;] h-[244px;] bg-[#0D2167;] rounded-[41px;] flex-shrink-0"></div>
+        </div>
+    </div>
+</body>
+</html>
