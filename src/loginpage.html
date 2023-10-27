@@ -1,0 +1,53 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="/dist/output.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style>
+    body {
+        font-family: 'Poppins', sans-serif;
+    }
+</style>
+</head>
+<body>
+    <div class="container min-h-screen min-w-full bg-white flex items-center justify-center relative text-[#132B50;]">
+        <div class="z-10 w-[584px;] h-[577px;] p-20 m-1 inline-flex flex-col items-start rounded-2xl bg-white shadow-[0_44px_104px_0px_rgba(19,43,80,0.1)] gap-10">
+            <div class="flex-1 flex flex-col items-start gap-8 min-w-full">
+                <h1 class="text-3xl font-bold leading-normal">
+                    Enter your password
+                </h1>
+                <div class="flex items-center gap-4">
+                    <img class="w-[78px;] h-[78px;] rounded-[78px;]" src="./images/profile.png" alt="">
+                    <div class="flex flex-col items-start gap-1">
+                        <h3 class="text-sm font-medium leading-normal">Business Account</h3>
+                        <span class="text-lg font-bold leading-normal">Sarah Bills</span>
+                    </div>
+                </div>
+                <label class="flex flex-col items-start gap-2 min-w-full">
+                    <span class="text-sm font-semibold leading-normal">
+                      Password
+                    </span>
+                    <div class="flex items-center self-stretch gap-4 relative min-w-full">
+                        <img class="w-[27px;] h-[27px;] absolute left-4" src="./images/kilit.svg" alt="">
+                        <input class="p-4 pl-14 flex-1 rounded-lg border divide-solid border-[#132B50]" placeholder="********"  type="password" name="password"  />
+                        <img class="" src="./images/gizlilik.svg" alt="">
+                    </div>
+                </label>
+                <div class="flex items-center w-full gap-4 pr-11">
+                    <div class="flex-1 flex items-center gap-2">
+                        <div class="w-[60px;] h-[36px;] p-1.5 rounded-full flex items-center justify-start border divide-solid border-[#132B50;]">
+                            <span class="w-6 h-6 bg-[#132B50;] rounded-full"></span>
+                        </div>
+                        <p class="flex-1 text-base font-semibold leading-normal">Stay signed in</p>
+                    </div>
+                    <a class="p-4 w-[103px;] flex items-center rounded-lg bg-[#132B50;] text-white text-base font-semibold leading-normal" href="#">Continue</a>
+                </div>
+            </div>
+            <a class="text-base font-semibold leading-normal underline" href="#">Reset password</a>
+        </div>
+        <div class="w-[918px] h-[1200px] opacity-5 bg-blue-950 absolute"></div>
+    </div>
+</body>
+</html>
